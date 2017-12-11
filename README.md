@@ -49,13 +49,13 @@ Divide Ratio (DR) = 8
 
 Reverse modulation type = FM0
 
-RTCal (R=>T) = Nominally 15.625us (2.5*Data-0), Appears to accept 10.625us to 18.75us
+RTCal (R=>T) = Nominally 31.25us (2.5*Data-0)
 
-TRCal (R=>T) = Appears to accept 15.5us to 56.25us, reader usage of this field may vary.
+TRCal (R=>T) = Nominally 50us for DR=8, reader usage of this field may vary.
 
-Data-0 (R=>T) = 6.25us 
+Data-0 (R=>T) = 12.5us 
 
-PW (R=>T) = 3.125us (0.5*(Data-0))
+PW (R=>T) = 6.25us (0.5*(Data-0))
 
 Enjoy the WISP5, and please contribute your comments and bugfixes here!
 
